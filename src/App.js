@@ -11,7 +11,7 @@ import {useContext, useState} from "react";
 import MyContext from "./components/myContext";
 import {RequireAuth} from "./hoc/RequireAuth";
 
-
+//BreakPoint = 420px
 
 function App() {
 
