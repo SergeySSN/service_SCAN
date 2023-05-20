@@ -1,8 +1,37 @@
+@font-face {
+  font-family: 'Ferry';
+  src:url("/src/fonts/ferry/ferry_black.otf");
+}
+@font-face {
+  font-family: 'Inter';
+  src: url("/src/fonts/inter/inter-Regular.otf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url("/src/fonts/inter/inter-SemiBold.otf");
+  font-weight: bold;
+}
+
+
+:root {
+  --m1-color: #029491;
+  --m2-color: #000000;
+  --m3-color: #FFFFFF;
+  --a1-color: #FFB64F;
+  --a2-color: #7CE3E1;
+  --a3-color: #5970FF;
+  --family-1: 'Ferry', san-serif;
+  --family-2: 'Inter', san-serif;
+}
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: var(--family-2);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
